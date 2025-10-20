@@ -168,15 +168,8 @@ def simple_function(param1, param2="default"):
     """Docstring for the function"""
     return param1 + param2
 
-def complex_function(a, b, *args, **kwargs):
-    result = a + b
-    for arg in args:
-        result += arg
-    return result
-
 # Function calls
 output = simple_function(10, 20)
-result = complex_function(1, 2, 3, 4, 5, key="value")
 builtin_call = print("Hello, World!")
 len_call = len([1, 2, 3])
 max_value = max([1, 5, 3, 9, 2])
