@@ -1,0 +1,21 @@
+{
+  "name": "pink-syntax",
+  "displayName": "pink-syntax",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "pink syntax",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pink syntax-color-theme.json"
+      }
+    ]
+  }
+}
