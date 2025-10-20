@@ -6,7 +6,7 @@
   "publisher": "aolin-xu",
   "icon": "assets/pink-paw.png",
   "engines": {
-    "vscode": "^1.105.0"
+    "vscode": "^1.95.0"
   },
   "categories": [
     "Themes"
